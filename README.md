@@ -2,6 +2,42 @@
 This project provides a comprehensive guide to installing and configuring Active Directory using VirtualBox. 
 It includes steps for setting up a Windows Server 2022 as a domain controller and connecting a client PC to the domain.
 
+## Table of Contents
+
+1. [Prerequisites](#prerequisites)
+2. [Setting Up VirtualBox](#setting-up-virtualbox)
+    - [Installing VirtualBox](#installing-virtualbox)
+3. [Creating Virtual Machines](#creating-virtual-machines)
+    - [Create a Domain Controller (Windows Server 2022) VM](#create-a-domain-controller-windows-server-2022-vm)
+    - [Create a Client PC (Windows 10) VM](#create-a-client-pc-windows-10-vm)
+4. [Installing Windows Server and Active Directory](#installing-windows-server-and-active-directory)
+    - [Installing Windows Server](#installing-windows-server)
+    - [Configuring the Server for Active Directory](#configuring-the-server-for-active-directory)
+5. [Configuring Active Directory](#configuring-active-directory)
+    - [Promoting the Server to a Domain Controller](#promoting-the-server-to-a-domain-controller)
+    - [Creating User Accounts and Organizational Units](#creating-user-accounts-and-organizational-units)
+6. [Setting Up Client PC](#setting-up-client-pc)
+    - [Installing Windows](#installing-windows)
+    - [Connecting the Client PC to the Domain](#connecting-the-client-pc-to-the-domain)
+7. [Testing and Verification](#testing-and-verification)
+    - [Testing the Connection](#testing-the-connection)
+    - [Logging in with a Domain Account](#logging-in-with-a-domain-account)
+    - [Checking Server Manager](#checking-server-manager)
+8. [Troubleshooting](#troubleshooting)
+    - [Common Issues and Solutions](#common-issues-and-solutions)
+        - [Issue: Unable to Join Domain](#issue-unable-to-join-domain)
+        - [Issue: DNS Issues](#issue-dns-issues)
+        - [Issue: Time Synchronization Problems](#issue-time-synchronization-problems)
+        - [Issue: Incorrect Domain Name](#issue-incorrect-domain-name)
+        - [Issue: Account Permissions](#issue-account-permissions)
+        - [Issue: Active Directory Services Not Running](#issue-active-directory-services-not-running)
+        - [Issue: Computer Account Already Exists](#issue-computer-account-already-exists)
+        - [Issue: Group Policy Issues](#issue-group-policy-issues)
+        - [Issue: Network Location Awareness](#issue-network-location-awareness)
+        - [Issue: IPV6 Configuration](#issue-ipv6-configuration)
+        - [Issue: Duplicate SPN](#issue-duplicate-spn)
+    - [Additional Tools for Troubleshooting](#additional-tools-for-troubleshooting)
+
 # Prerequisites
 
 - [VirtualBox](https://www.virtualbox.org/) installed on your computer.
