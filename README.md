@@ -69,11 +69,15 @@ Download and install VirtualBox from [here](https://www.virtualbox.org/).
 3. Follow the prompts, setting the Directory Services Restore Mode (DSRM) password.
 4. Restart the server once the configuration is complete.
 
+![Promote to DC](/images/12.png)
+
 ### Creating User Accounts and Organizational Units
 
 1. Open `Active Directory Users and Computers`.
 2. Create Organizational Units (OUs) for different departments.
 3. Right-click on the OU and select `New > User` to create user accounts.
+
+![Active Directory Users and Computers](images/14.png)
 
 There are better and more efficient ways to add objects in Active Directory. You can learn more about in my `Active Directory: Object Manipulation Guide` here.
 However, as this is a tutorial we can create a new user 'helpdesk' just as an example.
@@ -99,7 +103,7 @@ However, as this is a tutorial we can create a new user 'helpdesk' just as an ex
 4. Reboot the VM.
 5. After rebooting, go to `Settings > System > About` and click on `Join a domain`.
 
-![Joining a domain](/images/10.png)
+![Joining a domain](/images/13.png)
 
 6. Enter the domain name (in our example, we will use a domain name `greenday.com`).
 7. Provide the domain credentials (a user account or in our case we will use admin credentials).
