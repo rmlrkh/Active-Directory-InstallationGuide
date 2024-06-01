@@ -115,8 +115,7 @@ Download and install VirtualBox from [here](https://www.virtualbox.org/).
 
 ![Active Directory Users and Computers](images/14.png)
 
-There are better and more efficient ways to add objects in Active Directory. You can learn more about in my `Active Directory: Object Manipulation Guide` here.
-However, as this is a tutorial we can create a new user 'helpdesk' just as an example.
+There are better and more efficient ways to add objects in Active Directory. However, as this is a tutorial we can create a new user 'helpdesk' just as an example.
 
 
 ## 5. Setting Up Client PC
