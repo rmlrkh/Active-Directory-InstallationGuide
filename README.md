@@ -1,6 +1,5 @@
 # Active Directory Installation Guide
-• This project provides a comprehensive guide to installing and configuring Active Directory using VirtualBox. 
-• It includes steps for setting up a Windows Server 2022 as a domain controller and connecting a client PC to the domain.
+This project provides a comprehensive guide to installing and configuring Active Directory using VirtualBox. It includes steps for setting up a Windows Server 2022 as a domain controller and connecting a client PC to the domain.
 
 ## Table of Contents
 
